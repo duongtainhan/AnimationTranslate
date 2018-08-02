@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    android:interpolator="@android:anim/bounce_interpolator"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:fromXDelta="0"
+        android:toXDelta="550"
+        android:duration="1000">
+
+    </translate>
+    <translate
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:fromYDelta="0"
+        android:toYDelta="550"
+        android:startOffset="1000"
+        android:duration="1000">
+    </translate>
+    <translate
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:fromXDelta="0"
+        android:toXDelta="-550"
+        android:startOffset="2000"
+        android:duration="1000">
+    </translate>
+    <translate
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:fromYDelta="0"
+        android:toYDelta="-550"
+        android:startOffset="3000"
+        android:duration="1000">
+    </translate>
+
+</set>
